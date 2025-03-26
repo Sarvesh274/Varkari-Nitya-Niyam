@@ -1,0 +1,112 @@
+/* Global Styles */
+body {
+  background-color: #ffeccf;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #b8860b;
+  padding: 15px 50px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.navbar .site-title {
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar ul li {
+  display: inline;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding: 8px 15px;
+  transition: background 0.3s ease;
+}
+
+.navbar ul li a:hover {
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
+}
+
+/* Hero Section */
+.hero-section {
+  text-align: center;
+  margin: 30px auto;
+  padding: 20px;
+}
+
+.hero-image {
+  width: 180px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.hero-text {
+  margin-top: 15px;
+}
+
+.hero-text h1 {
+  font-size: 26px;
+  color: #8b4513;
+}
+
+.hero-text p {
+  font-size: 18px;
+  color: #5c3c0a;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Chapters List */
+.poem-list {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.poem-list h2 {
+  font-size: 22px;
+  color: #8b4513;
+}
+
+.poem-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.poem-list li {
+  background: #d4af37;
+  padding: 10px 20px;
+  margin: 10px auto;
+  width: 60%;
+  border-radius: 8px;
+  transition: transform 0.2s ease;
+}
+
+.poem-list li:hover {
+  transform: scale(1.05);
+}
+
+.chapter-link {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  display: block;
+}
