@@ -1,0 +1,56 @@
+.contribute-container {
+    max-width: 700px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #ffeccf;
+    border-radius: 10px;
+  }
+  
+  h2 {
+    color: #7a4d1d;
+  }
+  
+  .contributors {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+  }
+  
+  .contributor-card {
+    background: white;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  
+  label {
+    font-size: 14px;
+    color: #5c3c1a;
+    margin-top: 10px;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px;
+    background-color: #7a4d1d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
