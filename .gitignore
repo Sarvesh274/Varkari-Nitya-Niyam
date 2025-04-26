@@ -74,3 +74,4 @@ node_modules/
 /dist
 build
 firebase-debug.log
+backend/
